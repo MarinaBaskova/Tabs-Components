@@ -48,12 +48,18 @@ class TabItem {
     // Remove the class "tabs-item-selected" from each element
     Array.from(items).forEach(function(item){
       item.classList.remove('tabs-item-selected');
+
     });
     
     // Add a class named "tabs-item-selected" to this element
     this.element.classList.add('tabs-item-selected');
+
   }
 }
+
+
+
+
 
 /* START HERE: 
 
